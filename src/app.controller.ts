@@ -10,8 +10,4 @@ export class AppController {
     return this.appService.getHostname();
   }
 
-  @Get("loop")
-  getLoop(): string {
-    return this.appService.getLoop();
-  }
 }
