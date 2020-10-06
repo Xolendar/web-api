@@ -13,10 +13,4 @@ export class AppService {
     return 'Vous venez de faire une requête sur l\'instance '+os.hostname();
   }
 
-  getLoop() : string {
-    for(let i = 0; i < 10000000000; i++){
-      this.count+=i;
-    }
-    return "Incrémentation bien effectuée : "+this.count;
-  }
 }
